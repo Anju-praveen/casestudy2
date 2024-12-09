@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --ultramarine-blue: #3846FF;
+}
+
+body {
+    color: white;
+    font-family: Rubik;
+    background-color: #5A19BB;
+}
+
+#hello, #welcome {
+    padding: 0;
+    margin: 0;
+    color: var(--ultramarine-blue);
+    font-size: 5em;
+}
+
+#hello {
+    font-weight: 300;
+
+}
+
+#welcome {
+    font-weight: 700;
+}
+
+.login-container {
+    margin-top: 5em;
+    background-color: white;
+}
+
+.login-btn {
+    background-color: #FF29FF;
+    color: white;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+
+.login-btn:hover {
+    border-color: #FF29FF;
+    color:black;
+}
+
+
+.spinner-style {
+    color: #3846FF;
+    padding: 10em;
+    margin-top: 5em;
+}
+
+.fetch-container {
+    background-color: #212529;
+    min-height: 50em;
+}
+
+.list-container {
+    margin-top: 5em;
+}
+
+.todo-item {
+    padding: 0.5em 2em;
+    border: 1px solid white;
+    border-radius: 1em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
